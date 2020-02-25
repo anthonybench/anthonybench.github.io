@@ -38,16 +38,11 @@ footer {
     font-style: italic;
 }
 
-.photo-carousel-container {
-    border: 4px solid tomato;
-    display: flex;
-    justify-content: right;
-}
-
 .photo-carousel {
+    border: 4px solid tomato;
     max-width: 300px;
     display: flex;
-    justify-content: center;
+    float: right;
 }
 
 .internal-links {

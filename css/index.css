@@ -110,6 +110,8 @@ footer {
     background: #1a1b1e;
     color: white;
     border: 2px solid rgb(10, 62, 114);
+    border-radius: 8px;
+    padding: 6px;
 }
 
 .discord-modal-h2 {

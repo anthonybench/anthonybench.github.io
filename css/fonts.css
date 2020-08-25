@@ -1,0 +1,78 @@
+/********************************
+    Font Includes
+********************************/
+/*
+  Preference Order:
+    > woff
+    > ttf
+    > woff2
+*/
+
+/* FiraCode */
+@font-face{
+  font-family: 'FiraCode';
+  src: url('../Fonts/FiraCode/woff/FiraCode-Bold.woff') format('woff'),
+       url('../Fonts/FiraCode/woff/FiraCode-Light.woff') format('woff'),
+       url('../Fonts/FiraCode/woff/FiraCode-Medium.woff') format('woff'),
+       url('../Fonts/FiraCode/woff/FiraCode-Regular.woff') format('woff'),
+       url('../Fonts/FiraCode/woff/FiraCode-SemiBold.woff') format('woff'),
+       url('../Fonts/FiraCode/woff/FiraCode-VF.woff') format('woff');
+}
+
+/* JetBrainsMono */
+@font-face{
+  font-family: 'Jetbrains Mono';
+  src: url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Bold-Italic.woff') format('woff'),
+       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Bold.woff') format('woff'),
+       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-ExtraBold-Italic.woff') format('woff'),
+       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-ExtraBold.woff') format('woff'),
+       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Italic.woff') format('woff'),
+       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Medium-Italic.woff') format('woff'),
+       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Medium.woff') format('woff'),
+       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Regular.woff') format('woff');
+}
+
+
+/********************************
+    Demo Page Styles
+********************************/
+/*
+  Single fonts, font stacks
+*/
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+}
+
+.jbm {
+  font-family: "Jetbrains Mono";
+  text-align: left;
+  padding-top: 120px;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fc {
+  font-family: "FiraCode";
+  text-align: left;
+  padding-top: 120px;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rg {
+  font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+  padding-top: 120px;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: italic;
+}

@@ -1,0 +1,19 @@
+/* Elements */
+h1 {
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+  color: white;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+/* Classes */
+.color-list {
+  padding-top: 5px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}

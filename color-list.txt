@@ -1,0 +1,20 @@
+smoky black	#1a1b1e
+sexy grey	#343a40
+blood red	rgba(114, 28, 13, 0.459)
+deep blue	rgb(10, 62, 114)
+light blue	#4CA6FF
+soft pink	#e5dfeb
+
+
+
+
+
+
+
+
+
+
+
+
+
+

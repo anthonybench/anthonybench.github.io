@@ -5,7 +5,6 @@
   Change fonts as you see tasteful
 */
 
-/* FiraCode */
 @font-face{
   font-family: 'FiraCode';
   src: url('../Fonts/FiraCode/woff/FiraCode-Bold.woff') format('woff'),
@@ -16,7 +15,6 @@
        url('../Fonts/FiraCode/woff/FiraCode-VF.woff') format('woff');
 }
 
-/* JetBrainsMono */
 @font-face{
   font-family: 'Jetbrains Mono';
   src: url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Bold-Italic.woff') format('woff'),
@@ -44,6 +42,16 @@
   src: url('../Fonts/OpenSans/OpenSans-Regular.ttf');
 }
 
+@font-face{
+  font-family: 'Consolas-Alt';
+  src: url('../Fonts/ConsolasAlt/ConsolasAlt.ttf');
+}
+
+@font-face{
+  font-family: 'Hack';
+  src: url('../Fonts/Hack/Hack-Regular.ttf');
+}
+
 /********************************
     Demo Page Styles
 ********************************/
@@ -59,6 +67,28 @@ h1 {
   text-align: center;
   padding-bottom: 3rem;
 }
+
+hr{
+  height:3px;
+  width:40%;
+  border-width:0;
+  background-color:#8f764a;
+}
+
+.divider{
+  padding-bottom: 2rem;
+}
+
+p{
+  padding-bottom: 3rem;
+}
+
+/********************************
+    Font Displays
+********************************/
+/*
+  Single fonts, font stacks
+*/
 
 .jbm {
   font-family: "Jetbrains Mono";
@@ -105,17 +135,20 @@ h1 {
   font-style: normal;
 }
 
-hr{
-  height:3px;
-  width:40%;
-  border-width:0;
-  background-color:#8f764a;
+.consalt{
+  font-family: "Consolas-Alt";
+  text-align: left;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
 }
 
-.divider{
-  padding-bottom: 2rem;
-}
-
-p{
-  padding-bottom: 2rem;
+.h{
+  font-family: "Hack";
+  text-align: left;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
 }

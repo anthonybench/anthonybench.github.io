@@ -1,11 +1,8 @@
 /********************************
     Font Includes
 ********************************/
-/*
-  Preference Order:
-    > woff
-    > ttf
-    > woff2
+/* 
+  Change fonts as you see tasteful
 */
 
 /* FiraCode */
@@ -32,6 +29,20 @@
        url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Regular.woff') format('woff');
 }
 
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../Fonts/Montserrat/Montserrat-Regular.ttf');  
+}
+
+@font-face{
+  font-family: 'Oleo Script';
+  src: url('../Fonts/OleoScript/OleoScript-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Open Sans';
+  src: url('../Fonts/OpenSans/OpenSans-Regular.ttf');
+}
 
 /********************************
     Demo Page Styles
@@ -67,12 +78,32 @@ h1 {
   font-style: normal;
 }
 
-.rg {
-  font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.ms {
+  font-family: "Montserrat";
   text-align: left;
   padding-top: 120px;
   line-height: 1.8rem;
   font-size: medium;
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
+}
+
+.os{
+  font-family: "Oleo Script";
+  text-align: left;
+  padding-top: 120px;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.opsn{
+  font-family: "Open Sans";
+  text-align: left;
+  padding-top: 120px;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
 }

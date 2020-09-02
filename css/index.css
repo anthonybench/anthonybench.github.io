@@ -1,11 +1,3 @@
-.main-list {
-  padding-top: 10px;
-  /* padding-left: 35rem; */
-  /* display: flex;
-  justify-content: space-between; */
-  font-size: larger;
-}
-
 nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -18,7 +10,6 @@ h1 {
 }
 
 h3 {
-  /* padding-left: 35rem; */
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 2rem;
@@ -29,6 +20,6 @@ body {
   color: #e5dfeb;
 }
 
-.header-brand {
-  color: tomato;
+.doc-content{
+  align-content: center;
 }

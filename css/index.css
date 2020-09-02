@@ -21,5 +21,15 @@ body {
 }
 
 .doc-content{
-  align-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.squish{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+th{
+  text-align: center;
 }

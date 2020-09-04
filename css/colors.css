@@ -106,11 +106,47 @@ body {
 }
 
 /* Modern (19) */
+.mod-cap{
+  background-color: #D8C3A5;
+  color: #8E8D8A;
+}
 
+.mod-body{
+  background-color: #EAE7DC;
+  color: #E98074;
+}
+
+.mod-prim-text{
+  color: #E85A4F;
+}
 
 /* Ocean (23) */
+.oc-cap{
+  background-color: #25274D;
+  color: #45A29E;
+}
 
+.oc-body{
+  /* background-color: #464866; */
+  background: radial-gradient(ellipse at top, #464866, #25274D 85%);
+  color: #98d3cf;
+}
+
+.oc-prim-text{
+  color: #66FCF1;
+}
 
 /* Sky (30) */
+.sk-cap{
+  background-color: #8FC1E3;
+  color: #687864;
+}
 
+.sk-body{
+  background: radial-gradient(ellipse at center, #F7F9FB, #8FC1E3 130%);
+  color: #5085A5;
+}
 
+.sk-prim-text{
+  color: #31708E;
+}

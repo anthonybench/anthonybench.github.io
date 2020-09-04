@@ -1,23 +1,116 @@
-/* Elements */
-h1 {
+/********************************
+    General Rules
+********************************/
+/* 
+  Page styles excluding theme cards
+*/
+
+@font-face{
+  font-family: 'FiraCode';
+  src: url('../Fonts/FiraCode/ttf/FiraCode-Regular.ttf');
+}
+
+h3 {
   text-align: center;
-  border-bottom: 3px solid black;
-  padding-bottom: 5px;
-  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: #1a1b1e;
+  font-family: "FiraCode";
 }
 
 body {
   background-color: antiquewhite;
 }
 
-/* Classes */
-.color-list {
-  padding-top: 5px;
-  text-align: center;
-  font-size: larger;
-  font-weight: bolder;
-}
-
 .breath{
   padding-top: 2rem;
 }
+
+/********************************
+    Color Theme Cards
+********************************/
+/* Contemporary (22) */
+.cont-cap{
+  background-color: #254E58;
+  color: #afd3d2;
+}
+
+.cont-body{
+  background: radial-gradient(circle at center, #afd3d2, #88BDBC 60%);
+  color: #6E6658;
+}
+
+.cont-prim-text{
+  color: #4F4A41;
+}
+
+/* Earth (3) */
+.ear-cap{
+  background-color: #BC986A;
+  color: #FBEEC1;
+}
+
+.ear-body{
+  background: radial-gradient(circle at center, #81a4b8, #659DBD 60%);
+  color: #fbeec1;
+}
+
+.ear-prim-text{
+  color: #625e2e;
+}
+
+
+/* Electropop (21) */
+.pop-cap{
+  background-color: #5680E9;
+  color: whitesmoke;
+}
+
+.pop-body{
+  background: radial-gradient(circle at center, #84CEEB, #5AB9EA 70%);
+  color: #724bbb;
+}
+
+.pop-prim-text{
+  color: #8860D0;
+}
+
+/* Evoke (12) */
+.ev-cap{
+  background-color: #0B0C10;
+  color: white;
+}
+
+.ev-body{
+  background: radial-gradient(circle at center, #1F2833, #45A29E 400%);
+  color: #C5C6C7;
+}
+
+.ev-prim-text{
+  color: #66FCF1;
+}
+
+/* Mint (24) */
+.min-cap{
+  background-color: #2B7A78;
+  color: #DEF2F1;
+}
+
+.min-body{
+  background-color: #3AAFA9;
+  color: #17252A;
+}
+
+.min-prim-text{
+  color: #FEFFFF;
+}
+
+/* Modern (19) */
+
+
+/* Ocean (23) */
+
+
+/* Sky (30) */
+
+

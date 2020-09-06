@@ -69,7 +69,7 @@
                 <legend></legend>
                     basically a label for a `fieldset`. You can nest
                     a <span></span> in there and give the `span` a 
-                    class for cool subheader styling!
+                    class for cool subheader styling.
                 <select> <option></option> </select>
                     pre-defined list to select from, providing each
                     `option` in their own tags.
@@ -84,10 +84,10 @@
         <!-- Main -->
         <main>
             <div style="padding-top: 50px;">
-                <form action="result.html" method="post">
-                    <h1>Enter personal data!</h1>
+                <form action="#" method="post" oninput="x.value=parseInt(a.value)">
+                    <h2>A Form Example</h2>
                     <fieldset>
-                        <legend><span class="number">1</span> First Info Group</legend>
+                        <legend><span class="number">1</span> Typical Text Input</legend>
                         <!-- general text -->
                         <div>
                             <label for="Name">Name:</label>
@@ -105,7 +105,7 @@
                         </div>
                     </fieldset>
                     <fieldset>
-                        <legend><span class="number">2</span> Second Info Group</legend>
+                        <legend><span class="number">2</span> More Specific Input</legend>
                         <!-- general numbers -->
                         <div>
                             <label for="Num">Number:</label>
@@ -116,27 +116,6 @@
                             <label for="Cell">Phone number:</label>
                             <input type="tel" id="Cell" name="cell" value="(907) 444-3088">
                         </div>
-                        <!-- checkbox -->
-                        <div>
-                            <label>CheckBox:</label>
-                            <label for="Toggle-A" class="light">A</label>
-                            <input type="checkbox" id="Toggle-A" value="A-check">
-                            <label for="Toggle-B" class="light">B</label>
-                            <input type="checkbox" id="Toggle-B" value="B-check">
-                            <label for="Toggle-C" class="light">C</label>
-                            <input type="checkbox" id="Toggle-C" value="C-check">
-                        </div>
-                        <!-- radio -->
-                        <div>
-                            <label>Radio:</label>
-                            <label for="ChoiceA" class="light">Either this:</label>
-                            <input type="radio" value="A-radio" id="ChoiceA" name="my-radio">
-                            <label for="ChoiceB" class="light">Or this:</label>
-                            <input type="radio" value="B-radio" id="ChoiceB" name="my-radio">
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend><span class="number">3</span>Third Info Group</legend>
                         <!-- selections -->
                         <div>
                             <label for="Selection">Selection:</label>
@@ -152,9 +131,44 @@
                             </select>
                         </div>
                     </fieldset>
+                    <fieldset>
+                        <legend><span class="number">3</span> Essentials</legend>
+                        <!-- checkbox -->
+                        <span class="chkbx">
+                            <div>
+                                <label>CheckBox:</label>
+                                <label for="Toggle-A" class="light">A</label>
+                                <input type="checkbox" id="Toggle-A" value="A-check">
+                                <label for="Toggle-B" class="light">B</label>
+                                <input type="checkbox" id="Toggle-B" value="B-check">
+                                <label for="Toggle-C" class="light">C</label>
+                                <input type="checkbox" id="Toggle-C" value="C-check">
+                            </div>
+                            <!-- radio -->
+                            <div>
+                                <label>Radio:</label>
+                                <label for="ChoiceA" class="light">Either this</label>
+                                <input type="radio" value="A-radio" id="ChoiceA" name="my-radio">
+                                <label for="ChoiceB" class="light">Or that</label>
+                                <input type="radio" value="B-radio" id="ChoiceB" name="my-radio">
+                            </div>
+                        </span>
+                        <!-- Slider + Output -->
+                        <div style="padding-top: 1rem; padding-bottom: 1rem; display: flex; justify-content: space-around;">
+                            <div>
+                                <label>Slider:</label>
+                                <label for="a" lass="light">range of 0-100</label>
+                                <input type="range" id="a" value="50">
+                            </div>
+                            <div>
+                                <label>Output:</label>
+                                <output name="x" id="res" for="a b">50</output>
+                            </div>
+                        </div>
+                    </fieldset>
                     <!-- submit button: send data to `action` via HTTP -->
                     <div>
-                        <label for="Submit">Always need a submit button:</label>
+                        <label for="Submit">Assign the redirect address to the action attribute for the submit button:</label>
                         <button type="submit" id="Submit" class="btn btn-primary">Submit</button>
                     </div>
                 </form>

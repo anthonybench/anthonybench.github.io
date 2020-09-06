@@ -26,6 +26,10 @@ body {
   padding-top: 2rem;
 }
 
+.card-shadow{
+  box-shadow: 7px 5px 12px rgb(136, 136, 136);
+}
+
 /********************************
     Color Theme Cards
 ********************************/

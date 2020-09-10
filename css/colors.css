@@ -6,16 +6,19 @@
 */
 
 @font-face{
-  font-family: 'FiraCode';
-  src: url('../Fonts/FiraCode/ttf/FiraCode-Regular.ttf');
+  font-family: 'ConsAlt';
+  src: url('../Fonts/ConsolasAlt/ConsolasAlt.ttf');
 }
 
-h3 {
+header{
+  font-family: "ConsAlt";
+}
+
+h1 {
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 1rem;
   color: #1a1b1e;
-  font-family: "FiraCode";
+  font-family: "ConsAlt";
 }
 
 body {

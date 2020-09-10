@@ -1,3 +1,12 @@
+@font-face{
+  font-family: 'ConsAlt';
+  src: url('../Fonts/ConsolasAlt/ConsolasAlt.ttf');
+}
+
+header{
+  font-family: "ConsAlt";
+}
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -16,6 +25,13 @@ form {
   padding: 10px 20px;
   background: #f4f7f8;
   border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+  color: #1a1b1e;
+  font-family: "ConsAlt";
 }
 
 h2 {

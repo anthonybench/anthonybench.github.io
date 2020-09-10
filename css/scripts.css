@@ -1,7 +1,27 @@
+/********************************
+    General Rules
+********************************/
+/* 
+  Page styles excluding script cards
+*/
+
+@font-face{
+  font-family: 'ConsAlt';
+  src: url('../Fonts/ConsolasAlt/ConsolasAlt.ttf');
+}
+
+header{
+  font-family: "ConsAlt";
+}
+
+body {
+  background-color: antiquewhite;
+}
+
 .placeholder-btn{
   display: flex;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -10,3 +30,17 @@
   justify-content: center;
   padding-bottom: 3rem;
 }
+
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+  color: #1a1b1e;
+  font-family: "ConsAlt";
+}
+
+/********************************
+    Demo Script Cards
+********************************/
+/*
+  Showcase of scripts in action
+*/

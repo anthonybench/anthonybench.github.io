@@ -7,24 +7,12 @@
 
 @font-face{
   font-family: 'FiraCode';
-  src: url('../Fonts/FiraCode/woff/FiraCode-Bold.woff') format('woff'),
-       url('../Fonts/FiraCode/woff/FiraCode-Light.woff') format('woff'),
-       url('../Fonts/FiraCode/woff/FiraCode-Medium.woff') format('woff'),
-       url('../Fonts/FiraCode/woff/FiraCode-Regular.woff') format('woff'),
-       url('../Fonts/FiraCode/woff/FiraCode-SemiBold.woff') format('woff'),
-       url('../Fonts/FiraCode/woff/FiraCode-VF.woff') format('woff');
+  src: url('../Fonts/FiraCode/woff/FiraCode-Regular.woff') format('woff');
 }
 
 @font-face{
   font-family: 'Jetbrains Mono';
-  src: url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Bold-Italic.woff') format('woff'),
-       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Bold.woff') format('woff'),
-       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-ExtraBold-Italic.woff') format('woff'),
-       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-ExtraBold.woff') format('woff'),
-       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Italic.woff') format('woff'),
-       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Medium-Italic.woff') format('woff'),
-       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Medium.woff') format('woff'),
-       url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Regular.woff') format('woff');
+  src: url('../Fonts/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Regular.woff') format('woff');
 }
 
 @font-face{
@@ -56,8 +44,12 @@
     Demo Page Styles
 ********************************/
 /*
-  Single fonts, font stacks
+  Single fonts, in regular
 */
+
+header{
+  font-family: "Consolas-Alt";
+}
 
 body {
   background-color: antiquewhite;
@@ -65,7 +57,10 @@ body {
 
 h1 {
   text-align: center;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #1a1b1e;
+  font-family: "Consolas-Alt";
 }
 
 h3{

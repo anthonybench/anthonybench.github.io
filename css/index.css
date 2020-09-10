@@ -1,8 +1,10 @@
-nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  padding-left: 10rem;
-  padding-right: 10rem;
+@font-face{
+  font-family: 'ConsAlt';
+  src: url('../Fonts/ConsolasAlt/ConsolasAlt.ttf');
+}
+
+header{
+  font-family: "ConsAlt";
 }
 
 h1 {

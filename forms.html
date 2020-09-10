@@ -23,28 +23,25 @@
     <body>
         <!-- Header -->
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                <span class="navbar-brand header-brand"><i class="fas fa-toolbox"></i> Sleepy's ToolBox</span>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a1b1e;">
+                <span class="navbar-brand header-brand" style="color: white;"><i style="color: firebrick;" class="fas fa-toolbox"></i> Sleepy's ToolBox</span>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <!-- documentation -->
-                    <li class="nav-item active">
-                      <a class="nav-link" href="./index.html"> Docs <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html"> Docs </a>
                     </li>
                     <!-- fonts -->
                     <li class="nav-item">
-                        <a class="nav-link" href="./forms.html"> Fonts </a>
+                        <a class="nav-link" href="./fonts.html"> Fonts </a>
                     </li>
                     <!-- colors -->
                     <li class="nav-item">
                         <a class="nav-link" href="./colors.html"> Colors </a>
                     </li>
                     <!-- forms -->
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="./forms.html"> Forms </a>
                     </li>
                     <!-- scripts -->
@@ -79,13 +76,15 @@
             And understanding input types `radio` and `checkbox`:
                 <input type="radio" value="A" name="same">
                 <input type="radio" value="B" name="same">
-
          -->
+
         <!-- Main -->
         <main>
+
+            <h1>A general form example</h1>
+
             <div style="padding-top: 50px;">
                 <form action="#" method="post" oninput="x.value=parseInt(a.value)">
-                    <h2>A Form Example</h2>
                     <fieldset>
                         <legend><span class="number">1</span> Typical Text Input</legend>
                         <!-- general text -->

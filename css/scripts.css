@@ -19,6 +19,14 @@ body {
   background-color: #b29d69;
 }
 
+.breath{
+  padding-top: 2rem;
+}
+
+.card-shadow{
+  box-shadow: 7px 5px 12px rgb(136, 136, 136);
+}
+
 .placeholder-btn{
   display: flex;
   justify-content: center;

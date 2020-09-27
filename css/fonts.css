@@ -40,6 +40,17 @@
   src: url('../Fonts/Hack/Hack-Regular.ttf');
 }
 
+@font-face{
+  font-family: 'BalooTammudu';
+  src: url('../Fonts/BalooTammudu/BalooTammudu2-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'RobotoMono';
+  src: url('../Fonts/RobotoMono/RobotoMono-Regular.ttf');
+}
+
+
 /********************************
     Demo Page Styles
 ********************************/
@@ -148,6 +159,24 @@ p{
 
 .h{
   font-family: "Hack";
+  text-align: left;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.baloo{
+  font-family: "BalooTammudu";
+  text-align: left;
+  line-height: 1.8rem;
+  font-size: medium;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.roboto{
+  font-family: "RobotoMono";
   text-align: left;
   line-height: 1.8rem;
   font-size: medium;

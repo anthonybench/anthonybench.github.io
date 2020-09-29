@@ -1,0 +1,20 @@
+@font-face{
+  font-family: 'ConsAlt';
+  src: url('../Fonts/ConsolasAlt/ConsolasAlt.ttf');
+}
+
+header{
+  font-family: "ConsAlt";
+}
+
+body {
+  color: #384047;
+  background-color: #b29d69;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+  color: #1a1b1e;
+  font-family: "ConsAlt";
+}

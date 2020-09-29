@@ -1,11 +1,16 @@
 // imports
-const https = require('https');
-const api = require('./api.json');
+import { get } from 'https';
+import { openweather } from './api.json';
 
 // utility
 function logWeather(payLoad) {
-    // console.log(`Temp is ${} with a high of ${} and a low of ${}. The rel.humidity is ${}%, with a `);
-    console.log(payLoad);
+    const currTemp = Math.round(payLoad.main.temp - 273);
+    const minTemp = Math.round(payLoad.main.temp_min - 273);
+    const maxTemp = Math.round(payLoad.main.temp_max - 273);
+
+    console.log(`Temp is ${currTemp}C with a high of ${maxTemp}C and a low of ${minTemp}C.`);
+    console.log(`The rel.humidity is ${payLoad.main.humidity}%, with a wind speed of ${payLoad.wind.speed} mph`);
+    // console.log(payLoad);
 }
 function logError(error) {
     console.error(error.message);
@@ -14,8 +19,8 @@ function logError(error) {
 // fetching
 function getFiveDay() {
     try {
-        const request = https.get(
-            `https://api.openweathermap.org/data/2.5/weather?q=Anchorage,us1&appid=${api.openweather}`,
+        const request = get(
+            `https://api.openweathermap.org/data/2.5/weather?q=Anchorage,us1&appid=${openweather}`,
             res => {
                 let body = "";
                 res.on('data', data => {
@@ -35,6 +40,3 @@ function getFiveDay() {
         logError(error);
     }
 }
-
-
-getFiveDay();

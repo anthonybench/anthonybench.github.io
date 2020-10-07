@@ -1,4 +1,4 @@
-<div style="background-color: #1a1b1e; color: ">
+<div class="border border-gray-dark bg-gray-dark">
 
 # **Sleepy's ToolBox**
 *A GitHub Pages site for my personal development & creative resources*

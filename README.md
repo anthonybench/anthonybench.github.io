@@ -13,12 +13,12 @@ This project is a static site for me to store favorite color themes I've made, f
 ### Table of Contents 📖
 <hr>
 
-  - [Welcome](#welcome-to-my-ToolBox!)
+  - [Welcome](#welcome-to-my-ToolBox)
   - [**Get Started**](#get-started-)
   - [Usage](#usage-)
   - [Technologies](#technologies-)
   - [Contribute](#Contribute-)
-  - [License/Stats/Author](#license-,Stats,-author-)
+  - [License/Stats/Author](#license,-Stats,-author-)
 
 <br />
 

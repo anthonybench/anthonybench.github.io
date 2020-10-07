@@ -72,7 +72,7 @@ Since this is a personal reference page, I don't intend to review pull requests,
 
   This repository was authored by *Isaac Yep*.
 
-[Back to Table of Contents](#table-of-contents-📖)
+[Back to Table of Contents](#table-of-contents-)
 
 
 ![Imgur](https://i.imgur.com/jtNwEWu.png)

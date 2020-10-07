@@ -19,6 +19,7 @@ This project is a static site for me to store favorite color themes I've made, f
   - [Technologies](#-technologies-🧰)
   - [Contribute](#-Contribute-🤝)
   - [License/Author](#-license-,Stats,-author-📜)
+  - [test](#test)
 
 <br />
 
@@ -74,6 +75,7 @@ Since this is a personal reference page, I don't intend to review pull requests,
 
 [Back to Table of Contents](#table-of-contents-📖)
 
+### Test
 
 ![Imgur](https://i.imgur.com/jtNwEWu.png)
 

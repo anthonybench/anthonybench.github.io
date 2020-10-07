@@ -1,7 +1,5 @@
-<div class="bg-gray-dark">
-
 # **Sleepy's ToolBox**
-<span style="color: green">*A GitHub Pages site for my personal development & creative resources*</span>
+*A GitHub Pages site for my personal development & creative resources*
 
 <br />
 
@@ -12,11 +10,11 @@ This project is a static site for me to store favorite color themes I've made, f
 
 <br />
 
-## Table of Contents 📖
+### Table of Contents 📖
 <hr>
 
   - [Welcome](#welcome-to-projectname)
-  - [Get Started](#get-started-🚀)
+  - [**Get Started**](#get-started-🚀)
   - [Usage](#usage-⚙)
   - [Technologies](#technologies-🧰)
   - [Contribute](#Contribute-🤝)
@@ -24,14 +22,14 @@ This project is a static site for me to store favorite color themes I've made, f
 
 <br />
 
-## Get Started 🚀
+### Get Started 🚀
 <hr>
 
 Explore this [link](https://anthonybench.github.io) in your favorite browswer, and open up your developer tools to explore the source and take/examine what resource you need! I'm always adding new things to it!
 
 <br />
 
-## Usage ⚙
+### Usage ⚙
 <hr>
 
 In the header, you have 4 pages listed as nav-items:
@@ -48,7 +46,7 @@ In the header, you have 4 pages listed as nav-items:
 
 <br />
 
-## Technologies 🧰
+### Technologies 🧰
 <hr>
 
 Nothing but [BootStrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/), as *GitHub Pages* hosting does not allow for really any backend support.
@@ -56,14 +54,14 @@ Nothing but [BootStrap](https://getbootstrap.com/docs/4.5/getting-started/introd
 
 <br />
 
-## Contribute 🤝
+### Contribute 🤝
 <hr>
 
 Since this is a personal reference page, I don't intend to review pull requests, however am always open to suggestion. If you feel obliged to send a pull request and leave a comment explaining your idea, I'd be happy and open to constructive feedback! 😊
 
 <br />
 
-## License, Stats, Author 📜
+### License, Stats, Author 📜
 <hr>
 <!-- badge cluster -->
 

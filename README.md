@@ -66,7 +66,7 @@ Since this is a personal reference page, I don't intend to review pull requests,
 <!-- badge cluster -->
 
  ![GitHub](https://img.shields.io/github/license/anthonybench/anthonybench.github.io) ![GitHub top language](https://img.shields.io/github/languages/top/anthonybench/anthonybench.github.io) ![GitHub language count](https://img.shields.io/github/languages/count/anthonybench/anthonybench.github.io)
- 
+
 <!-- / -->
  See [License](https://opensource.org/licenses/MIT) for the full license text.
 
@@ -77,93 +77,3 @@ Since this is a personal reference page, I don't intend to review pull requests,
 
 ![Imgur](https://i.imgur.com/jtNwEWu.png)
 
-
-
-
-
-<br /><br /><br /><br /><br /><br /><br />
-# **CHEAT SHEET**
-<br />
-
-*italic*
-
-<hr>
-
-**bold**
-
-<hr>
-
-~~strike through~~
-
-<hr>
-
-> this is a block quote
-> it goes like this
->
-> if you want space, put arrow head in blank line
-
-<hr>
-
-### task list
-- [x] flip
-- [ ] flap
-- [ ] flop
-
-<hr>
-
-<ul>
-    <li>unordered list</li>
-</ul>
-
-<hr>
-
-<ol>
-    <li>ordered list</li>
-</ol>
-
-<hr>
-
-```print("This is code") ```
-
-<hr>
-
-```json
-{
-    "This is" : "specific code"
-}
-```
-
-<hr>
-
-emojis are fine 😍
-[emoji index](https://unicode.org/emoji/charts/full-emoji-list.html)
-
-<hr>
-
-basic link [My ToolBox](https://anthonybench.github.io)
-
-<hr>
-
-email <anthonybenchyep@gmail.com>
-
-<hr>
-
-image
-![Holochan!](https://i.imgur.com/oTopiyf.jpg)
-
-<hr>
-
-section jump [`Table of Contents`](#table-of-contents)
-
-<hr>
-
-badges:
-
-* license/GitHub
-![GitHub](https://img.shields.io/github/license/anthonybench/Algorithms)
-* Analysis/GitHub top language
-![GitHub top language](https://img.shields.io/github/languages/top/anthonybench/Algorithms)
-* Analysis/GitHub language count
-![GitHub language count](https://img.shields.io/github/languages/count/anthonybench/anthonybench.github.io)
-* Make new badge: [shield.io](https://shields.io/)
-* [MIT License Link](https://opensource.org/licenses/MIT)

@@ -1,3 +1,4 @@
+<div style="background-color: #1a1b1e; color: ">
 # **Sleepy's ToolBox**
 *A GitHub Pages site for my personal development & creative resources*
 
@@ -76,4 +77,4 @@ Since this is a personal reference page, I don't intend to review pull requests,
 
 
 ![Imgur](https://i.imgur.com/jtNwEWu.png)
-
+</div>

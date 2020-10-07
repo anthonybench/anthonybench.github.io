@@ -18,7 +18,7 @@ This project is a static site for me to store favorite color themes I've made, f
   - [Usage](#usage-)
   - [Technologies](#technologies-)
   - [Contribute](#Contribute-)
-  - [License/Stats/Author](#license,-Stats,-author-)
+  - [License/Stats/Author](#license-Stats-author-)
 
 <br />
 

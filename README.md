@@ -1,11 +1,11 @@
-<div class="border border-gray-dark bg-gray-dark">
+<div class="bg-gray-dark">
 
 # **Sleepy's ToolBox**
-*A GitHub Pages site for my personal development & creative resources*
+<span style="color: green">*A GitHub Pages site for my personal development & creative resources*</span>
 
 <br />
 
-## Welcome to my ToolBox!
+### Welcome to my ToolBox!
 <hr>
 
 This project is a static site for me to store favorite color themes I've made, fonts I like, and other examples organized for quickly accessible reference. See the link under *Get Started*! ようこそ！

@@ -13,7 +13,7 @@ This project is a static site for me to store favorite color themes I've made, f
 ### Table of Contents 📖
 <hr>
 
-  - [Welcome](#welcome-to-my-ToolBox)
+  - [Welcome](#welcome-to-my-toolbox)
   - [**Get Started**](#get-started-)
   - [Usage](#usage-)
   - [Technologies](#technologies-)
@@ -63,6 +63,9 @@ Since this is a personal reference page, I don't intend to review pull requests,
 
 ### License, Stats, Author 📜
 <hr>
+
+<img align="right" alt="example image tag" src="https://i.imgur.com/jtNwEWu.png" width="200" />
+
 <!-- badge cluster -->
 
  ![GitHub](https://img.shields.io/github/license/anthonybench/anthonybench.github.io) ![GitHub top language](https://img.shields.io/github/languages/top/anthonybench/anthonybench.github.io) ![GitHub language count](https://img.shields.io/github/languages/count/anthonybench/anthonybench.github.io)
@@ -73,8 +76,3 @@ Since this is a personal reference page, I don't intend to review pull requests,
   This repository was authored by *Isaac Yep*.
 
 [Back to Table of Contents](#table-of-contents-)
-
-
-![Imgur](https://i.imgur.com/jtNwEWu.png)
-
-</div>

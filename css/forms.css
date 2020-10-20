@@ -3,8 +3,13 @@
   src: url('../Fonts/ConsolasAlt/ConsolasAlt.ttf');
 }
 
+.enlarge {
+  font-size: 1.8rem;
+}
+
 header{
   font-family: "ConsAlt";
+  font-size: 1.5rem;
 }
 
 *, *:before, *:after {
@@ -16,7 +21,7 @@ header{
 body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
-  background-color: #b29d69;
+  background-color: #343a40;
 }
 
 form {
@@ -30,7 +35,7 @@ form {
 h1 {
   text-align: center;
   padding-top: 2rem;
-  color: #1a1b1e;
+  color: #e5dfeb;
   font-family: "ConsAlt";
 }
 

@@ -32,7 +32,7 @@ Explore this [link](https://anthonybench.github.io) in your favorite browswer, a
 ### Usage ⚙
 <hr>
 
-In the header, you have 4 pages listed as nav-items:
+In the header, you have 7 pages listed as nav-items:
 
 `Docs` serves as the home page, and tabularizes documentation I frequently access.
 
@@ -42,7 +42,11 @@ In the header, you have 4 pages listed as nav-items:
 
 `Forms` demonstrates different basic form components, which I find easy to forget.
 
+`Grids` provides a straightforward example of the css grid layout.
+
 `Configs` organizes some common dev utilities and config files I use.
+
+`Templates` offers templates I've written for various development tasks.
 
 <br />
 

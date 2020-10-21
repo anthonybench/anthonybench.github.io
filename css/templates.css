@@ -23,3 +23,8 @@ h1 {
   color: #e5dfeb;
   font-family: "ConsAlt";
 }
+
+.squish {
+  padding-left: 20%;
+  padding-right: 20%;
+}

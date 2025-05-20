@@ -26,7 +26,7 @@ const BuiltWith = (tools: string[]) => {
 const SleepyBlogLogo = (themeType: string) => {
   return (
     <Image
-      src={`/sleepylinktree/sleepyboy-technologist-${themeType}.png`}
+      src={`/sleepyboy-technologist-${themeType}.png`}
       alt="SleepyBlog Logo"
       width={1100}
       height={1100}
@@ -38,7 +38,7 @@ const SleepyBlogLogo = (themeType: string) => {
 const PyPILogo = () => {
   return (
     <Image
-      src={`/sleepylinktree/pypi-logo.png`}
+      src={`/pypi-logo.png`}
       alt="PyPI Logo"
       width={1100}
       height={1100}
@@ -50,7 +50,7 @@ const PyPILogo = () => {
 const LinkedInLogo = () => {
   return (
     <Image
-      src={`/sleepylinktree/linkedin-in-blue.png`}
+      src={`/linkedin-in-blue.png`}
       alt="LinkedIn Logo"
       width={1100}
       height={1100}

@@ -10,7 +10,7 @@ const GithubOktocat = (themeType: string) => {
   const inverse = themeType === "dark" ? "light" : "dark";
   return (
     <Image
-      src={`/sleepylinktree/github-oktocat-${inverse}.svg`}
+      src={`/github-oktocat-${inverse}.svg`}
       alt="SleepyBlog Logo"
       width={80}
       height={80}

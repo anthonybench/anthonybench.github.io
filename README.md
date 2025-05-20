@@ -33,8 +33,6 @@ This project is purposed for building a static website export for my [my Github 
 ![GitHub License](https://img.shields.io/github/license/anthonybench/sleepylinktree)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anthonybench/sleepylinktree)
 
-TODO [SHIELD](https://shields.io/)
-
 <!-- / -->
 
 See [License](LICENSE) for the full license text.

@@ -24,7 +24,7 @@ const SourceWrapper = () => {
   const themeType = fetchTheme(theme).type;
   return (
     <a
-      href="https://github.com/anthonybench/sleepylinktree/blob/main/README.md"
+      href="https://github.com/anthonybench/anthonybench.github.io/blob/main/README.md"
       target="_blank"
       rel="noopener noreferrer"
     >

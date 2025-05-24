@@ -12,7 +12,7 @@ This project is purposed for building a static website export for my [my Github 
 
 ## **Technologies 🧰**
 
-- [ReacT Github Calendar](https://grubersjoe.github.io/react-github-calendar/#/?user=anthonybench)
+- [React Github Calendar](https://grubersjoe.github.io/react-github-calendar/#/?user=anthonybench)
 - [TailwindUI](https://tailwindcss.com/plus/ui-blocks/application-ui)
 - [Next.js](https://nextjs.org/docs)
 - [HeadlessUI](<[URL](https://headlessui.com/react/listbox#component-api)>)

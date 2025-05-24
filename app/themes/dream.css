@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blush: #fdf5f6; /* Very light background */
+  --color-petal: #e9e5e9; /* Slightly darker background/border */
+  --color-bloom: #e6a7c6; /* Accent 1 (soft pink) */
+  --color-dew: #d788b1; /* Primary accent (muted rose) */
+  --color-slate: #5f5a60; /* Dark text/contrast */
+  --color-fog: #a6a3a7; /* Muted text/outline */
+}
+
+@layer components {
+  .dream-theme-selector-button {
+    background-color: var(--color-petal);
+    color: var(--color-dew);
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: -1px;
+    outline-color: var(--color-fog);
+  }
+  .dream-theme-selector-button:focus {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -2px;
+    outline-color: var(--color-bloom);
+  }
+  .dream-bento-item-outline {
+    outline: 0.5px solid var(--color-fog);
+  }
+  .dream-focus-option[data-focus] {
+    background-color: var(--color-blush);
+    color: var(--color-dew);
+  }
+}
+
+@layer utilities {
+  .dream-text-primary {
+    color: var(--color-dew);
+  }
+  .dream-text-secondary {
+    color: var(--color-bloom);
+  }
+  .dream-text-muted-light {
+    color: var(--color-slate);
+  }
+  .dream-text-muted-dark {
+    color: var(--color-fog);
+  }
+  .dream-bg-primary {
+    background-color: var(--color-blush);
+  }
+  .dream-bg-secondary {
+    background-color: var(--color-petal);
+  }
+  .dream-modal-btn-hover:hover {
+    background-color: var(--color-slate);
+    color: var(--color-blush);
+  }
+}

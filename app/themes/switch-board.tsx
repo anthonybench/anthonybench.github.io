@@ -13,19 +13,21 @@ type ThemeType = {
 // Color Themes
 export const themes: ThemeType[] = [
   // codeName must match the file name minus the extension
-  { displayName: "Nord", codeName: "nord", type: "dark" },
   { displayName: "Dracula", codeName: "dracula", type: "dark" },
+  { displayName: "Day One", codeName: "day-one", type: "light" },
+  { displayName: "Nord", codeName: "nord", type: "dark" },
+  { displayName: "Gruvbox", codeName: "gruvbox", type: "light" },
   { displayName: "Solarized Dark", codeName: "solarized-dark", type: "dark" },
-  { displayName: "Monokai", codeName: "monokai", type: "dark" },
   {
     displayName: "Solarized Light",
     codeName: "solarized-light",
     type: "light",
   },
-  { displayName: "Gruvbox", codeName: "gruvbox", type: "light" },
-  { displayName: "Day One", codeName: "day-one", type: "light" },
+  { displayName: "Monokai", codeName: "monokai", type: "dark" },
+  { displayName: "Ocean", codeName: "ocean", type: "dark" },
+  { displayName: "Dream", codeName: "dream", type: "light" },
 ];
-export const defaultTheme = "nord"; // use codeName
+export const defaultTheme = themes[0].codeName; // default first theme in array
 
 // Fonts
 const comfortaa = Comfortaa({

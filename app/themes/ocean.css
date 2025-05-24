@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-abyss: #0a1128; /* Very dark background */
+  --color-trench: #14213d; /* Darker background/border */
+  --color-coral: #5cb85c; /* Accent 1 (green) */
+  --color-wave: #42a5f5; /* Primary accent (blue) */
+  --color-pearl: #e0f2f7; /* Light text/contrast */
+  --color-kelp: #64b5f6; /* Muted blue/outline */
+}
+
+@layer components {
+  .ocean-theme-selector-button {
+    background-color: var(--color-trench);
+    color: var(--color-wave);
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: -1px;
+    outline-color: var(--color-kelp);
+  }
+  .ocean-theme-selector-button:focus {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -2px;
+    outline-color: var(--color-coral);
+  }
+  .ocean-bento-item-outline {
+    outline: 0.5px solid var(--color-kelp);
+  }
+  .ocean-focus-option[data-focus] {
+    background-color: var(--color-abyss);
+    color: var(--color-wave);
+  }
+}
+
+@layer utilities {
+  .ocean-text-primary {
+    color: var(--color-wave);
+  }
+  .ocean-text-secondary {
+    color: var(--color-coral);
+  }
+  .ocean-text-muted-light {
+    color: var(--color-pearl);
+  }
+  .ocean-text-muted-dark {
+    color: var(--color-kelp);
+  }
+  .ocean-bg-primary {
+    background-color: var(--color-abyss);
+  }
+  .ocean-bg-secondary {
+    background-color: var(--color-trench);
+  }
+  .ocean-modal-btn-hover:hover {
+    background-color: var(--color-pearl);
+    color: var(--color-abyss);
+  }
+}
